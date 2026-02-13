@@ -93,6 +93,53 @@ Highlights the dramatic reduction in returns after realistic modeling.
 
 ---
 
+## V2 vs V3 Comprehensive Strategy Comparison
+**File:** `images/v2_v3_comparison.png`
+
+This multi-panel visualization provides a full comparison between the improved model (V2) and the final realistic regime-based model (V3).
+
+**Top Panel — Portfolio Value Over Time**  
+Displays equity curves for both strategies.  
+- V2 shows extremely high growth driven by simplified assumptions.  
+- V3 shows far more modest growth under realistic ETF decay, beta, and regime modeling.  
+The gap highlights how small modeling changes dramatically affect long-term performance.
+
+**Middle Left — VIX Regime Zones**  
+Shows VIX levels with trading thresholds and regime regions:
+- Long-volatility zone when VIX is low  
+- Short-volatility zone when VIX is elevated  
+This explains how regime-based signals are generated in V3.
+
+**Middle Right — Cumulative Return Multiple**  
+Compares total return multiples:
+- V2 reaches extremely high cumulative returns  
+- V3 grows slowly and realistically  
+Demonstrates how unrealistic decay assumptions inflate strategy performance.
+
+**Bottom Left — Daily Returns Distribution**  
+Histogram comparing daily return distributions:
+- V2 has higher mean returns but wider dispersion  
+- V3 has tighter, more realistic return clustering  
+Shows reduced volatility and lower expected return under realistic modeling.
+
+**Bottom Right — Performance Metrics Comparison**  
+Bar chart comparing:
+- Annual return
+- Volatility
+- Sharpe ratio
+- Maximum drawdown
+
+Key takeaway:  
+While V2 appears highly profitable with strong Sharpe ratios,  
+V3 reflects more realistic risk-adjusted performance and significantly lower returns.
+
+This visualization summarizes the central conclusion of the project:  
+**Proper modeling of ETF mechanics and volatility regimes is critical for realistic backtesting.**
+
+![V2 vs V3 Comparison](images/v2_v3_comparison.png)
+
+---
+
 # Generated CSV Outputs
 
 These files are created when running the backtesting scripts.
@@ -101,7 +148,7 @@ These files are created when running the backtesting scripts.
 |------|-------------|
 | `vix_spy_data.csv` | Cleaned historical VIX + SPY dataset |
 | `v1_v2_comparison.csv` | Comparison of v1 and v2 |
-| `v2_vs_v3_comparison.csv` | Comparison of v2 and v3 |
+| `v2_v3_comparison.csv` | Comparison of v2 and v3 |
 
 These CSVs allow independent verification of results and further analysis.
 
