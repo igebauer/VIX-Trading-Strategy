@@ -1,0 +1,5 @@
+Strategy,V1_Return,V2_Return,Difference,V1_Sharpe,V2_Sharpe,V1_MaxDD,V2_MaxDD
+Mean_Reversion_Entry25_Exit18,11.96,21.05,9.09,0.33,0.59,-71.7,-63.15
+MA_Crossover_10_30,-56.07,-54.72,1.35,-0.82,-0.8,-99.99,-99.99
+Regime_Based,61.5,46.98,-14.52,1.63,1.24,-49.43,-48.9
+Contrarian_SPY_Threshold2.0,-19.88,-22.53,-2.65,-0.57,-0.65,-94.03,-95.84

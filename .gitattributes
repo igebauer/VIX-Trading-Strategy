@@ -1,0 +1,23 @@
+# Auto detect text files and normalize line endings to LF
+* text=auto
+
+# Python files
+*.py text eol=lf
+
+# CSV files
+*.csv text eol=lf
+
+# Markdown files
+*.md text eol=lf
+
+# Images (binary)
+*.png binary
+*.jpg binary
+*.jpeg binary
+
+# Ensure .sh scripts use LF
+*.sh text eol=lf
+
+# GitHub linguist - tell GitHub what language this is
+*.py linguist-language=Python
+*.md linguist-documentation
