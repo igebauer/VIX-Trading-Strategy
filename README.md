@@ -76,6 +76,16 @@ else:
 
 df['VIX_ETF_Return'] = df['VIX_Return'] * VIX_BETA - decay
 ```
+---
+
+### V2 vs V3 Quick Visual Comparison (All results are in RESULTS.md)
+
+![V2 vs V3 Comparison](images/v2_v3_comparison.png)
+
+*Comprehensive comparison showing how VIX beta and regime-dependent decay 
+reduce returns from 49.9% to 2.7% annualized.*
+
+---
 
 **Why This Matters:**
 
@@ -243,6 +253,7 @@ python regime_based_v3.py
 ```
 VIX-Trading-Strategy/
 ├── README.md                      # This file
+├── RESULTS.md                     # Easily accessible results
 ├── requirements.txt               # Python dependencies
 │
 ├── data_collection.py             # Download & process VIX/SPY data
@@ -250,7 +261,7 @@ VIX-Trading-Strategy/
 ├── backtesting_v2.py              # V2 - Constant decay
 ├── regime_based_v3.py             # V3 - Beta + regime decay
 │
-├── compare_versions.py            # Side-by-side comparison
+├── compare_v1_v2.py               # Side-by-side comparison
 │
 ├── data/
     ├── vix_spy_data.csv           # Generated: Market data
@@ -260,7 +271,9 @@ VIX-Trading-Strategy/
 └── images/
     ├── exploratory_analysis.png       # Generated: EDA visualizations
     ├── backtest_results.png           # Generated: V1 results
-    └── backtest_results_v2.png        # Generated: V2 result
+    ├── backtest_results_v2.png        # Generated: V2 result
+    ├── v1_v2_comparison.png           # v1 and v2 strategies compared
+    └── v2_v3_comparison.png           # v2 and v3 strategies compared
 ```
 
 ---
