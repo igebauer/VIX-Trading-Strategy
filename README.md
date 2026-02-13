@@ -58,7 +58,7 @@ VIX ETFs don't behave like the VIX index
 ---
 
 ### Version 3: Market Microstructure Reality
-**File:** `run_v3_analysis.py`  
+**File:** `regime_based_v3.py`  
 **Result:** 2.7% annualized return using regime-based strategy 
 **The Final Fixes:** Added VIX beta and regime-dependent decay
 
@@ -232,7 +232,7 @@ python backtesting_v2.py
 
 #### V3 - Realistic Modeling
 ```bash
-python run_v3_analysis.py
+python regime_based_v3.py
 ```
 **Output:** Console analysis showing 2.7% returns with detailed breakdown
 
@@ -248,7 +248,7 @@ VIX-Trading-Strategy/
 ├── data_collection.py             # Download & process VIX/SPY data
 ├── backtesting.py                 # V1 - Naive (raw VIX index)
 ├── backtesting_v2.py              # V2 - Constant decay
-├── run_v3_analysis.py             # V3 - Beta + regime decay
+├── regime_based_v3.py             # V3 - Beta + regime decay
 │
 ├── compare_versions.py            # Side-by-side comparison
 │
