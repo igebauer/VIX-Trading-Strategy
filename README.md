@@ -306,13 +306,13 @@ The strategies shown are NOT recommended for actual trading because:
 
 ---
 
-## 📄 License
+## License
 
 This project is for educational purposes. Feel free to use and modify with attribution.
 
 ---
 
-## 🔄 Project Evolution Summary
+## Project Evolution Summary
 
 | Version | Annualized Return | Key Fix | Lesson Learned |
 |---------|-------------------|---------|----------------|
