@@ -117,7 +117,7 @@ The difference between 61.5% and 2.7% returns demonstrates that **market microst
 | **V2** | 49.94% | • Constant 5% decay<br>• 1.0 beta |
 | **V3** | **2.70%** | • 0.45 beta<br>• Regime-dependent decay |
 
-**98.5% reduction from V1 to V3** - all from fixing market microstructure assumptions!
+**98.5% reduction from V1 to V3** - all from fixing market microstructure assumptions
 
 ---
 
@@ -333,4 +333,4 @@ This project is for educational purposes. Feel free to use and modify with attri
 | V2 | 49.94% | Added 5% monthly decay | VIX ETFs suffer contango |
 | V3 | **2.70%** | Beta (0.45) + regime decay | Details matter enormously |
 
-**98.5% reduction from V1 to V3** - all from fixing assumptions about market structure!
+**98.5% reduction from V1 to V3** - all from fixing assumptions about market structure
